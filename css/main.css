@@ -1,11 +1,87 @@
+/*----------- Design ----------*/
+
 html {
-	font-family: 'Open Sans', sans-serif;
+  font: normal 100%/1.3 Open Sans, sans-serif;
 }
 
 .masthead-section {
-	background-color: #d0cbb4;
+  background-color: #d0cbb4;
 }
 
-.intro-section {
-	background-color: #f7f5f1;
+.intro-section, .body-section {
+  background-color: #f7f5f1;
+}
+
+.left {
+  background-color: rgba(229, 208, 123, .20)
+}
+
+.right {
+  background-color: rgba(83, 124, 123, .20)
+}
+
+.white {
+  background-color: #fff
+}
+
+.blue {
+  color: #203347
+}
+
+
+/*----------- Header ----------*/
+
+.intro-p {
+  width: 90%;
+}
+
+
+
+
+
+/*----------- Xsml 240px ----------*/
+
+@media only screen and (min-width: 14em) {
+
+  html {
+    font-size: 80%;
+  }
+
+}
+
+/*----------- Sml 320px ----------*/
+
+@media only screen and (min-width: 20em) {
+
+  html {
+    font-size: 100%;
+  }
+
+}
+
+/*----------- Med 600px ----------*/
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+/*----------- Lrg 900px ----------*/
+
+@media only screen and (min-width: 55em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+
+/*----------- Print ----------*/
+
+@media print {
+
 }
