@@ -72,6 +72,37 @@ svg {
   stroke-miterlimit: 10;
 }
 
+.yellow-fill {
+  fill: #ecd177;
+}
+
+
+ .globe-opa {
+  opacity: 0.26;
+  fill: #337d7d;
+}
+
+.transparent {
+  fill: none;
+}
+
+.nervosa {
+  fill: none;
+  stroke: #0A3656;
+  stroke-width: 0.3467;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.nervosa-org {
+  fill: #ed5a49;
+  stroke: #ed5a49;
+  stroke-width: 0.1444;
+  stroke-miterlimit: 10;
+}
+
+
 
 /*----------- Xsml 240px ----------*/
 
