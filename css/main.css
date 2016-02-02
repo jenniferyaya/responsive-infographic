@@ -5,27 +5,27 @@ html {
 }
 
 .masthead-section {
-  background-color: #d0cbb4;
+  background-color: #e2dfd2;
 }
 
-.intro-section, .body-section {
-  background-color: #f7f5f1;
+.body-color {
+  background-color: #eceae1;
 }
 
 .left {
-  background-color: rgba(229, 208, 123, .20)
+  background-color: rgba(236, 234, 225, .50)
 }
 
 .right {
-  background-color: rgba(83, 124, 123, .20)
-}
-
-.white {
-  background-color: #fff
+  background-color: rgba(225, 236, 234, .40)
 }
 
 .blue {
   color: #203347
+}
+
+svg {
+  stroke: transparent;
 }
 
 
@@ -35,8 +35,42 @@ html {
   width: 90%;
 }
 
+.bar-text {
+  fill: #0a3656;
+  }
 
+.bar-org {
+  fill: #ed5a49;
+}
 
+.bar-blue {
+  fill: #e9f5fc;
+}
+
+.text-blue {
+  fill: #dde8f0;
+  stroke: #dde8f0;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.dot-blue {
+  fill: none;
+  stroke: #0a3656;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 0,8;
+}
+
+.line-yellow {
+  fill: none;
+  stroke: #ecd177;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
 
 
 /*----------- Xsml 240px ----------*/
