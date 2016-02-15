@@ -218,6 +218,13 @@ h1 {
   stroke-miterlimit: 10;
 }
 
+.left-y {
+  background-color: #eee3b6;
+}
+
+.right-r {
+  background-color: #a4b8b6;
+}
 /* ----------- Xsml 240px ---------- */
 
 @media only screen and (min-width: 14em) {
@@ -255,3 +262,33 @@ h1 {
 
 /* ----------- Print ---------- */
 
+@media print {
+
+  h1 {
+    font-size: 2.25rem;
+ }
+
+  h2 {
+    font-size: 1rem;
+ }
+
+  h3 {
+    font-size: 1rem;
+ }
+
+  svg {
+    width: 45%;
+  }
+
+  .intro, .banner, .overview {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .intro-p {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+
+}
