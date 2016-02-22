@@ -4,6 +4,10 @@ html {
   font: normal 100%/1.3 Open Sans, sans-serif;
 }
 
+svg:focus {
+  outline: 3px solid #000;
+}
+
 .background-img {
   background-image: url("../img/banner.png");
   background-repeat: no-repeat;
@@ -266,15 +270,15 @@ h1 {
 
   h1 {
     font-size: 2.25rem;
- }
+  }
 
   h2 {
     font-size: 1rem;
- }
+  }
 
   h3 {
     font-size: 1rem;
- }
+  }
 
   svg {
     width: 45%;
@@ -289,6 +293,4 @@ h1 {
     font-size: 1rem;
     padding: 0;
   }
-
-
 }
