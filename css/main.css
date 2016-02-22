@@ -293,4 +293,8 @@ h1 {
     font-size: 1rem;
     padding: 0;
   }
+
+  h2 {
+    margin-bottom: 0;
+  }
 }
